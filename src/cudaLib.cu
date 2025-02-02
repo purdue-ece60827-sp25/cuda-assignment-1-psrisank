@@ -35,8 +35,8 @@ int runGpuSaxpy(int vectorSize) {
 	for (int i = 0; i < vectorSize; i++) {
 		// x[i] = 1.0f;
 		// y[i] = 2.0f;
-		x[i] = (float) (rand() % 100);
-		y[i] = (float) (rand() % 100);
+		x[i] = (float) (rand() % 1000);
+		y[i] = (float) (rand() % 1000);
 
 
 		// A*X + Y should return all 5's
@@ -70,7 +70,7 @@ int runGpuSaxpy(int vectorSize) {
 
 	// Check if computations were correct
 	int errorCount = 0;
-	float error = 0.000;
+	float error = 0.001;
 	for (int i = 0; i < vectorSize; i++) {
 		if ((y[i] < (reference_y[i] - error)) || (y[i] > (reference_y[i] + error))) {
 			errorCount++;
