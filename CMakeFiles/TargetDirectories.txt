@@ -1,0 +1,7 @@
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/CMakeFiles/lab1.dir
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/CMakeFiles/edit_cache.dir
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/CMakeFiles/rebuild_cache.dir
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/src/CMakeFiles/cudaLib.dir
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/src/CMakeFiles/cpuLib.dir
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/src/CMakeFiles/edit_cache.dir
+/home/psrisank/ECE60827/cuda-assignment-1-psrisank/src/CMakeFiles/rebuild_cache.dir
