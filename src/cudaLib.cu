@@ -178,8 +178,6 @@ double estimatePi(uint64_t generateThreadCount, uint64_t sampleSize,
 	}
 	free(hits);
 
-	printf("Total hits: %d\n", total_hits);
-	printf("Total hits as a double: %lf\n", (double) total_hits);
 	approxPi = (double) total_hits / (double) (generateThreadCount * sampleSize) * 4.0;
 
 
